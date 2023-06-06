@@ -1,0 +1,16 @@
+{
+  "name": "db_management_tool",
+  "version": "1.0.0",
+  "description": "DB Management Tool",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && electron ."
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^25.0.1",
+    "typescript": "^5.1.3"
+  }
+}
